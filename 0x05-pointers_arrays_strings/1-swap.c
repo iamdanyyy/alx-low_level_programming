@@ -1,15 +1,14 @@
-/**
- * _strlen - a function that swaps the value of two intergers
- * @a: input
- * @b: input
- * Return: n
- */
 #include "main.h"
-void swap_int(int *a, int *b);
+/**
+ * swap_int - swaps the values of two integers
+ * @a: integer to swap
+ * @b: integer to swap
+ */
+void swap_int(int *a, int *b)
 {
-        int k;
+	int m;
 
-        k = *a;
-        *a = *b;
-        *b = k;
+	m = *a;
+	*a = *b;
+	*b = m;
 }
