@@ -15,7 +15,7 @@ int main(void)
 	long long Vlong;
 
 	printf("Size of a char: %u byte(s)\n", sizeof(Character));
-	printf("Size of an int: %u bytes(s)\n", sizeof(Integer));
+	printf("Size of an int: %u byte(s)\n", sizeof(Integer));
 	printf("Size of a long int: %lu byte(s)\n", sizeof(Long));
 	printf("Size of a long long int: %lu byte(s)\n", sizeof(Vlong));
 	printf("Size of a float: %lu byte(s)\n", sizeof(Float));
