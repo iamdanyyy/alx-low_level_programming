@@ -2,12 +2,13 @@
 
 /**
  * main - prints a sentence
- * return: 1
+ *
+ * Return: always 1
  */
 
 int main(void)
 {
 	char abc[]="and that piece of art is useful\" - Dora Korpar, 2015-10-19";
-	putchar(abc);
+	putchar(abc[]);
 	return(1);
 }
