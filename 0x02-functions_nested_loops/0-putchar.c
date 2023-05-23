@@ -8,7 +8,9 @@
 int main(void)
 {
 	char print[] = "_putchar";
+
 	printf("%s", print);
+
 	printf("\n");
 
 	return (0);
