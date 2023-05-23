@@ -9,7 +9,8 @@
 int add(int k, int j)
 {
 	int sum = k + j;
-	printf("%d\n", sum);
+
+	printf("%d", sum);
 
 	return (0);
 }
