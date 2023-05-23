@@ -10,4 +10,6 @@ int add(int k, int j)
 {
 	int sum = k + j;
 	printf("%d\n", sum);
+
+	return (0);
 }
