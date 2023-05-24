@@ -3,7 +3,7 @@
 /**
  * _abs - computes the absolute value of an integer
  * @k: integer to be computed
- * Return: Always 0
+ * Return: Absolute value of k
  */
 
 int _abs(int k)
@@ -11,9 +11,9 @@ int _abs(int k)
 
 	if (k <= -1)
 	{
-		k = k * -1;
+		return (-k);
 	}
 
-	return (0);
+	return (k);
 
 }
