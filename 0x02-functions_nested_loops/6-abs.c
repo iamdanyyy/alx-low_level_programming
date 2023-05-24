@@ -11,8 +11,9 @@ int _abs(int k)
 
 	if (k < 0)
 	{
-		k = k * -1;
+		k *= -1;
+	}
 
 	return (0);
-	}
+
 }
