@@ -1,4 +1,5 @@
 #include "main.h"
+#include <string.h>
 
 /**
  * puts2 - prints every other char of str from first char, then new line
