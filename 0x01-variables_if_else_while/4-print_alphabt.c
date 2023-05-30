@@ -5,13 +5,19 @@
  * Return: Always 0
  */
 
-int main(void) {
+int main(void)
+{
 
 	int k;
 
 	for (k = 'a'; k <= 'z'; k++)
 	{
-		if (k = 'q', 'e')
+		if (k == 'e')
+		{
+			continue;
+		}
+
+		if(k == 'q')
 		{
 			continue;
 		}
