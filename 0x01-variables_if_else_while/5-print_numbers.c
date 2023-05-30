@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main prints single digit numbers of base ten starting from zero,then a new line
+ * main - prints single digit numbers of base ten from zero, then a new line
  * Return: Always 0
  */
 
