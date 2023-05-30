@@ -9,7 +9,7 @@ int main(void)
 {
 	int k;
 
-	for (k = 'z'; k = 'a'; k--)
+	for (k <= 'z'; k >= 'a'; k--)
 	{
 		putchar(k);
 	}
@@ -17,5 +17,3 @@ int main(void)
 	putchar('\n');
 
 	return (0);
-
-}
