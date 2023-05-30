@@ -5,11 +5,13 @@
  * Return: Always 0
  */
 
-int main(void) {
+int main(void)
+{
 
 	char alpha[] = "abcdefghijklmnopqrstuvwxyz";
 	
-	putchar("%c\n", alpha);
+	putchar(alpha);
+	putchar('\n');
 
 	return (0);
 
