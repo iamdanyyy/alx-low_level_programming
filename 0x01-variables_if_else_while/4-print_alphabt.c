@@ -1,15 +1,25 @@
 #include <stdio.h>
 
 /**
- * main - prints the alphabet in lowercase, except q and e then followed by a new line
+ * main - prints the alphabet in lowercase, except q and e then a new line
  * Return: Always 0
  */
 
 int main(void) {
 
-	char alpha[] = "abcdfghijklmnoprstuvwxyz";
+	int k;
 
-	putchar("%c\n", alpha);
+	for (k = 'a'; k <= 'z'; k++)
+	{
+		if (k = 'q', 'e')
+		{
+			continue;
+		}
+
+		putchar(k);
+	}
+
+	putchar('\n');
 
 	return (0);
 
