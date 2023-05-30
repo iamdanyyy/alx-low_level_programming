@@ -8,9 +8,13 @@
 int main(void)
 {
 
-	char alpha[] = "abcdefghijklmnopqrstuvwxyz";
-	
-	putchar(alpha);
+	int k;
+
+	for (k = 'a'; k <= 'z'; k++)
+	{
+		putchar(k);
+	}
+
 	putchar('\n');
 
 	return (0);
