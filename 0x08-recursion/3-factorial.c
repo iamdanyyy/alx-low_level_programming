@@ -10,20 +10,20 @@ int factorial(int n)
 {
 	int sum = 0;
 
-	if (n > 0)
-	{
-		sum = n * factorial(sum - 1);
-
-		return (sum);
-	}
-
-	else if (n == 0)
+	if (n == 0)
 	{
 		return (1);
 	}
 
-	else
+	else if (n < 0)
 	{
 		return (-1);
+	}
+
+	else
+	{
+		sum = sum * factorial(n - 1);
+
+		return sum;
 	}
 }
