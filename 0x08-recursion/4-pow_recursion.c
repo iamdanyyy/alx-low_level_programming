@@ -9,27 +9,19 @@
 
 int _pow_recursion(int x, int y)
 {
-	int j;
-	int k = 1;
+
 	if (y > 0)
 	{
-		for  (j = 0; j < y; j++)
-		{
-			k = k * x;
-
-			return (k);
-		}
+		return (x ^ y);
 	}
 
-	else if (y == 0)
-	{
-		return (1);
-	}
-
-	else
+	else if (y < 0)
 	{
 		return (-1);
 	}
 
-	return (0);
+	else
+	{
+		return (1);
+	}
 }
