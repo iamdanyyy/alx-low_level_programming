@@ -56,9 +56,11 @@ int _atoi(char *s)
 
 int main(int argc, char *argv[])
 {
+	int answer;
+
 	if (argc = 3)
 	{
-	int answer = (_atoi(argv[1]) * _atoi(argv[2]));
+	answer = (_atoi(argv[1]) * _atoi(argv[2]));
 
 	printf("%d\n", answer);
 	}
@@ -66,6 +68,8 @@ int main(int argc, char *argv[])
 	else
 	{
 		printf("Error\n");
+
+		return (1);
 	}
 
 	return (0);
