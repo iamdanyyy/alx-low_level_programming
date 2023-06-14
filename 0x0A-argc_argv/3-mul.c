@@ -10,16 +10,16 @@
 
 int main(int argc, char *argv[])
 {
-	if (argc > 1)
+	if (argc = 3)
 	{
-	int answer = (argv[1] * argv[2]);
+	int answer = (_atoi(argv[1]) * _atoi(argv[2]));
 
-	return (answer);
+	printf("%d\n", answer);
 	}
 
 	else
 	{
-		return ("Error");
+		printf("Error\n");
 	}
 
 	return (0);
